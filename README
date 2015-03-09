@@ -58,6 +58,14 @@ CURRENT FUNCTIONALITY
 	
 EXAMPLE (for more example-code, refer to the Demo.java file)
 
+	Include the library using Maven:
+	
+	<dependency>
+		<groupId>net.thegreshams</groupId>
+		<artifactId>firebase4j</artifactId>
+		<version>0.0.1</version>
+	</dependency>
+		
 	// create the firebase
 	Firebase firebase = new Firebase( your_firebase_workspace_url );
 	
